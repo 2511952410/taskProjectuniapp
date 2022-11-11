@@ -1,6 +1,6 @@
 <template>
 	<view>
-		jsdokakdioajd
+问不想
 	</view>
 </template>
 
