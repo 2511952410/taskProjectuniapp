@@ -1,0 +1,113 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {}
+		},{
+                        "path": "pages/rigst/rigst",
+                        "style": {}
+                    },{
+                        "path": "pages/zy/zy",
+                        "style": {}
+                    },{
+                        "path": "pages/pople/pople",
+                        "style": {}
+                    },{
+                        "path": "pages/video/video",
+                        "style": {}
+                    },{
+                        "path": "pages/pyq/pyq",
+                        "style": {}
+                    }
+	    ,{
+            "path" : "pages/gj/gj",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/homework/homework",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/test/test",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/sd/sd",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		    "color": "#7A7E83",
+		    "selectedColor": "red",
+		    "borderStyle": "black",
+		    "backgroundColor": "#ffffff",
+		    "list": [{
+		        "pagePath": "pages/zy/zy",
+		        "iconPath": "static/首页 (1).png",
+		        "selectedIconPath": "static/首页.png",
+		        "text": "首页"
+		    }
+			, {
+			    "pagePath": "pages/video/video",
+			    "iconPath": "static/24gf-playCircle.png",
+			    "selectedIconPath": "static/24gf-playCircle (1).png",
+			    "text": "学习视频"
+			}
+			, {
+			    "pagePath": "pages/homework/homework",
+			    "iconPath": "static/作业.png",
+			    "selectedIconPath": "static/作业 (1).png",
+			    "text": "作业列表"
+			}
+			// , {
+			//     "pagePath": "pages/gj/gj",
+			//     "iconPath": "static/工具-3.png",
+			//     "selectedIconPath": "static/工具-3 (1).png",
+			//     "text": "实用工具"
+			// }
+			, {
+			    "pagePath": "pages/pyq/pyq",
+			    "iconPath": "static/朋友圈.png",
+			    "selectedIconPath": "static/朋友圈 (1).png",
+			    "text": "大学生活"
+			}
+			, {
+		        "pagePath": "pages/pople/pople",
+		        "iconPath": "static/tabbar/about.png",
+		        "selectedIconPath": "static/tabbar/about_cur.png",
+		        "text": "个人中心"
+		    }]
+		},
+	"globalStyle": {
+		"mp-alipay": {
+			/* 支付宝小程序特有相关 */
+			"transparentTitle": "always",
+			"allowsBounceVertical": "NO"
+		},
+		"navigationBarBackgroundColor": "#0081ff",
+		"navigationBarTitleText": "demo_uniapp",
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "white"
+	}
+
+}
