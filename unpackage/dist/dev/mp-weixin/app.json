@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/rigst/rigst",
+    "pages/zy/zy",
+    "pages/pople/pople",
+    "pages/video/video",
+    "pages/pyq/pyq",
+    "pages/gj/gj",
+    "pages/homework/homework",
+    "pages/test/test",
+    "pages/sd/sd"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarBackgroundColor": "#0081ff",
+    "navigationBarTitleText": "demo_uniapp",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "red",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/zy/zy",
+        "iconPath": "static/首页 (1).png",
+        "selectedIconPath": "static/首页.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "iconPath": "static/24gf-playCircle.png",
+        "selectedIconPath": "static/24gf-playCircle (1).png",
+        "text": "学习视频"
+      },
+      {
+        "pagePath": "pages/homework/homework",
+        "iconPath": "static/作业.png",
+        "selectedIconPath": "static/作业 (1).png",
+        "text": "作业列表"
+      },
+      {
+        "pagePath": "pages/pyq/pyq",
+        "iconPath": "static/朋友圈.png",
+        "selectedIconPath": "static/朋友圈 (1).png",
+        "text": "大学生活"
+      },
+      {
+        "pagePath": "pages/pople/pople",
+        "iconPath": "static/tabbar/about.png",
+        "selectedIconPath": "static/tabbar/about_cur.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "vueVersion": "3",
+  "usingComponents": {}
+}
